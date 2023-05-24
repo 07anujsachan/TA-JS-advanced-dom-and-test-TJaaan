@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(68, 122, 202);
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+h1 {
+  color: aliceblue;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+.border {
+  border: 3px solid aliceblue;
+  border-radius: 5px;
+}
+input {
+  border: none;
+  padding: 18px 16px;
+  display: block;
+  width: 26rem;
+
+  background-color: rgb(68, 122, 202);
+}
+::placeholder {
+  color: aliceblue;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 7px 10px 0 0;
+  background-color: rgb(68, 122, 202);
+  border: none;
+}
+input,
+select,
+textarea {
+  color: aliceblue;
+}
+.dragme {
+  display: none;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(68, 122, 202);
+}
+.dragme:hover {
+  display: block;
+}
+.li {
+  padding: 5px 16px;
+  margin-bottom: 1rem;
+  width: 25rem;
+  margin-right: 25px;
+  background-color: aliceblue;
+  color: rgb(68, 122, 202);
+  display: flex;
+  justify-content: space-between;
+}
+.li:hover .dragme {
+  display: block;
+  color: rgb(68, 122, 202);
+}
+p {
+  font-size: 20px;
+  font-weight: 700;
+}
