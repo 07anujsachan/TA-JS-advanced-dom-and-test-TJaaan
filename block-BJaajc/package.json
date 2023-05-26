@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "jest"
   },
   "author": "AltCampus",
   "license": "GNU GPL V3",
