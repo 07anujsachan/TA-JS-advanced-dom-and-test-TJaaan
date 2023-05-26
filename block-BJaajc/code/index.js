@@ -1,5 +1,6 @@
 function getFullName(firstName, lastName) {
-  return '${"firstName"}  ${"lastName"}';
+  let fullName ='${"firstName"}  ${"lastName"}';
+  return fullName
 }
 function isPalindrome(str) {
   let length = str.length - 1;
@@ -22,4 +23,4 @@ function getArea(radius) {
   return `The area is ${area}`;
 }
 
-module.exports = getFullName , isPalindrome , getCircumference, getArea;
+module.exports = {getFullName , isPalindrome , getCircumference, getArea};
